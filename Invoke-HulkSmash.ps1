@@ -1,5 +1,15 @@
 ﻿function Invoke-HulkSmash
 {
+
+<#
+.Synopsis
+   Hit something till it works
+.DESCRIPTION
+   This function hits something till it works. Should only be used by senior admins as it may destroy the target.
+.EXAMPLE
+   Invoke-HulkSmash -WhatToSmash "VMWare" -NumberOfSmashes 10
+#>
+
     [CmdletBinding()]
     Param
     (
